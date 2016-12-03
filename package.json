@@ -1,0 +1,119 @@
+{
+    "author": "sunpazed",
+    "dependencies": {
+        "enamel": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "pugtime",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Pug Time",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "theme_bw",
+            "theme_main_time[2]",
+            "theme_main_bg[3]"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Pug Happy BW",
+                    "name": "PUG_HAPPY_BW",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Pug Sad BW",
+                    "name": "PUG_SAD_BW",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Pug Happy PT",
+                    "memoryFormat": "4BitPalette",
+                    "name": "PUG_HAPPY_PT",
+                    "storageFormat": "png",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Pug Sad PT",
+                    "name": "PUG_SAD_PT",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pug-time-icon.png",
+                    "menuIcon": true,
+                    "name": "PUG_TIME_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Pug Happy Emery",
+                    "name": "PUG_HAPPY_EMERY",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Pug Sad Emery",
+                    "name": "PUG_SAD_EMERY",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:,]",
+                    "file": "fonts/LECO_1976-Regular.otf",
+                    "name": "LECO_40",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:,]",
+                    "file": "fonts/LECO_1976-Regular.otf",
+                    "name": "LECO_54",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "8d3ab9f6-bfd9-48cb-844e-c245fca59734",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}
